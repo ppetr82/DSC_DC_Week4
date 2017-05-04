@@ -19,10 +19,11 @@ There is a lot of commentaries in the source code where all steps can be easily 
 7. dplyr functions (group_by and summarise_each) is used to create the final tidy dataset
 ## Variables
 ### Dimensional variables
-* subjectId	
-* activityId	
-* activityName	
+* subjectId	- integer; id of the subjects
+* activityId	- integer; id of the activity
+* activityName	- string; name of the activities
 ### Factual variables
+All variables are decimal variables. The names are based on the original variables from the data source and added -MEAN as a postfix because it was requested to calculate mean of those. 
 * tBodyAcc-mean()-X-MEAN	
 * tBodyAcc-mean()-Y-MEAN	
 * tBodyAcc-mean()-Z-MEAN	
