@@ -1,5 +1,4 @@
 # Codebook for Getting and Cleaning Data Course Project
-======
 ## Introduction
 This document contains codebook for tidy data set as requested in the Getting and Cleaning Data Course Project in week 4. 
 * More about the source data set please visit this web site: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -19,8 +18,8 @@ There is a lot of commentaries in the source code where all steps can be easily 
 6. both train dataframe and test dataframe are merged
 7. dplyr functions (group_by and summarise_each) is used to create the final tidy dataset
 ## Variables
-###Dimensional columns
-###Factual columns
+### Dimensional columns
+### Factual columns
 
 
 
